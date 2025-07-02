@@ -1,0 +1,15 @@
+https://www.mathworks.com/matlabcentral/fileexchange/72708-1-wire-add-on-library-for-arduino?s_tid=FX_rc1_behav
+
+For Matlab 2019b and up:
+
+1. Download the zip file from https://github.com/PaulStoffregen/OneWire/archive/v2.3.2.zip
+
+2. Unpackage the zip into local directory and rename the folder to ‘OneWire’.
+
+3. Move the ‘OneWire’ folder into the "libraries" folder inside your Arduino sketchbook folder:
+
+Arduino IDE Path is returned by the command arduinoio.IDERoot in the MATLAB Command Window
+
+• On Windows®, the default path is "Arduino IDE Path\portable\sketchbook\libraries\"
+• On Mac®, the default path is "~/Documents/Arduino/libraries/"
+• On Linux®, the default path is "Arduino IDE Path/portable/sketchbook/libraries/" 
